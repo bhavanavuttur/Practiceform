@@ -1,0 +1,214 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625829924118' stop='1625829925934'>
+    <name>Chai page: Test chai form</name>
+    <title>Chai page: Test chai form</title>
+    <test-cases>
+        <test-case start='1625829924119' status='passed' stop='1625829924125'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829924126' status='passed' stop='1625829925925'>
+            <name>Given I am on the practice page "http://www.practiceselenium.com/practice-form.html"</name>
+            <title>Given I am on the practice page "http://www.practiceselenium.com/practice-form.html"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps>
+                <step start='1625829924131' status='passed' stop='1625829925593'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c53a7173-061b-436c-a239-4aaa1f055fe9-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1625829925595' status='passed' stop='1625829925919'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='7106bd55-ecf6-4af0-b7cd-bc1e7c6db2d2-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829925925' status='broken' stop='1625829925927'>
+            <name>Then I Validate page header "Practice form"</name>
+            <title>Then I Validate page header "Practice form"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Validate page header "Practice form"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Validate page header "Practice form"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\bvuttur\Desktop\tscucumber\features\form.feature):1:1
+                	at Scenario(Test chai form):3:3
+                	at Step(I Validate page header "Practice form"):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925927' status='undefined'>
+            <name>When I enter firstname bhavna and lastname vuttur</name>
+            <title>When I enter firstname bhavna and lastname vuttur</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829925928' status='pending' stop='1625829925928'>
+            <name>I enter firstname bhavna and lastname vuttur</name>
+            <title>I enter firstname bhavna and lastname vuttur</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925928' status='undefined'>
+            <name>And I select gender female years 5 favourite chai Oolong Tea and reason Break</name>
+            <title>And I select gender female years 5 favourite chai Oolong Tea and reason Break</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829925929' status='pending' stop='1625829925929'>
+            <name>I select gender female years 5 favourite chai Oolong Tea and reason Break</name>
+            <title>I select gender female years 5 favourite chai Oolong Tea and reason Break</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925929' status='undefined'>
+            <name>And I select continent Asia and commands Wait commands</name>
+            <title>And I select continent Asia and commands Wait commands</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829925929' status='pending' stop='1625829925929'>
+            <name>I select continent Asia and commands Wait commands</name>
+            <title>I select continent Asia and commands Wait commands</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925930' status='undefined'>
+            <name>And I click on sumbit button</name>
+            <title>And I click on sumbit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625829925930' status='pending' stop='1625829925930'>
+            <name>I click on sumbit button</name>
+            <title>I click on sumbit button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925930' status='broken' stop='1625829925930'>
+            <name>Then I validate page header "We are passionate about tea."</name>
+            <title>Then I validate page header "We are passionate about tea."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I validate page header "We are passionate about tea."" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I validate page header "We are passionate about tea."" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\bvuttur\Desktop\tscucumber\features\form.feature):1:1
+                	at Scenario(Test chai form):3:3
+                	at Step(I validate page header "We are passionate about tea."):11:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625829925931' status='passed' stop='1625829925932'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
