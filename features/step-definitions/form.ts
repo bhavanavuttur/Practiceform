@@ -18,8 +18,8 @@ When(/^I enter firstname (.+) and lastname (.+)$/, async function (fname: string
 
 When(/^I select gender (.+) years (.+) favourite chai (.+) and reason (.+)$/, async function (gender: string, yrs: string, favchai: string, reason: string) {
 
-    await (await App.gender).click()
-    await (await App.experience).click()
+    await App.radiobutton(await App.gender_ratio, gender)
+    await(await App.experience).click()
     await (await App.favourite).click()
     await (await App.case).click()
 
