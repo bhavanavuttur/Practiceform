@@ -12,16 +12,18 @@ Then(/^I Validate page header \"([^\"]*)\"$/, async function (headertext: string
 });
 
 When(/^I enter firstname (.+) and lastname (.+)$/, async function (fname: string, lname: string) {
-    await (await App.firstname).setValue(fname)
-    await (await App.lastname).setValue(lname)
+    // await (await App.firstname).setValue(fname)
+    await App.firstNameAtt(fname)
+    // await (await App.lastname).setValue(lname)
+    await App.lastNameAtt(lname)
 });
 
 When(/^I select gender (.+) years (.+) favourite chai (.+) and reason (.+)$/, async function (gender: string, yrs: string, favchai: string, reason: string) {
 
-    await App.radiobutton(await App.gender_ratio, gender)
-    await App.radiobutton(await App.experience, yrs)
-    await App.radiobutton(await App.favourite, favchai)
-    await App.radiobutton(await App.case, reason)
+    await App.selectGender(gender)
+    await App.selectExperience(yrs)
+    await App.selectFavChai(favchai)
+    await App.selectReason(reason)
 
 });
 
